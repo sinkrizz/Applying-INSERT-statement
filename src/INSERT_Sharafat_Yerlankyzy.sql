@@ -8,7 +8,7 @@ INSERT INTO film (
     rental_rate,
     rental_duration,
     genre
-);
+)
 
 VALUES (
     'Matrix',

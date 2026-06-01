@@ -35,3 +35,10 @@ WHERE customer_id = (
       AND last_name = 'Yerlankyzy'
     LIMIT 1
 );
+
+-- Difference between DELETE and TRUNCATE:
+-- DELETE removes selected rows and can use a WHERE clause.
+-- TRUNCATE removes all rows from a table and cannot use a WHERE clause.
+-- DELETE can remove one row, several rows, or all rows.
+-- TRUNCATE always removes all rows from the table.
+-- TRUNCATE is generally faster and resets AUTO_INCREMENT.
